@@ -1,4 +1,4 @@
-package pro.sky.jawa.course2.houmwork.lessonexeptions;
+package pro.sky.jawa.course2.houmwork.lessonexeptions.data;
 
 import java.util.Objects;
 
@@ -10,10 +10,6 @@ public class Employee {
     public Employee(String firstName, String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
-    }
-
-    public String getFirstName() {
-        return firstName;
     }
 
     public void setFirstName(String firstName) {
